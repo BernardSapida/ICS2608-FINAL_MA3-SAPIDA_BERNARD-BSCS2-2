@@ -56,6 +56,6 @@
             </section>
         </main>
 
-        <script src="../js/homepage.js"></script>
+        <script src="./public/js/homepage.js"></script>
     </body>
 </html>
