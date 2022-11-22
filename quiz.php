@@ -135,7 +135,7 @@
                         </div>
                     </div>
                     <div class="p-4 rounded mb-3">
-                        <p><span class="text-danger fs-3">Q.</span> 4) Using PHP, you can restrict users to access some pages of your website.</p>
+                        <p><span class="text-danger fs-3">Q.</span> 4) Identifiers must not begin with a dollar sign ($).</p>
                         <hr>
                         <div class="mb-2">
                             <div class="form-check">
