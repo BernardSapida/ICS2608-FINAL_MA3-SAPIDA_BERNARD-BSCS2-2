@@ -55,7 +55,7 @@
         <footer class="p-3 w-100">
             <p class="m-0 text-center text-dark">Copyright &copy; 2022 PHP&JS Quiz. All rights reserved.</p>
         </footer>
-
         <script src="./public/js/homepage.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

@@ -51,6 +51,10 @@
                 </form>
             </section>
         </main>
+        <hr class="m-0">
+        <footer class="p-3 w-100">
+            <p class="m-0 text-center text-dark">Copyright &copy; 2022 PHP&JS Quiz. All rights reserved.</p>
+        </footer>
         <script src="./public/js/homepage.js"></script>
     </body>
 </html>

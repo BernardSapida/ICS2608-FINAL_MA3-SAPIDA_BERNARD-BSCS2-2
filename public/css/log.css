@@ -1,6 +1,9 @@
 body {
   background-color: rgb(246, 243, 245);
 }
+body main {
+  height: 80vh;
+}
 body main section {
   max-width: 600px;
   width: 100%;
