@@ -1,1 +1,1 @@
-{"version":3,"sources":["../../scss/quizResult.scss","quizResult.css"],"names":[],"mappings":"AAAA;EACI,uCAAA;ACCJ;ADEQ;EACI,gBAAA;EACA,WAAA;EACA,+BAAA;EACA,2CAAA;ACAZ;ADEY;EACI,kBAAA;ACAhB","file":"quizResult.css"}
+{"version":3,"sources":["../../scss/quizResult.scss","quizResult.css"],"names":[],"mappings":"AAAA;EACI,oCAAA;ACCJ;ADEQ;EACI,gBAAA;EACA,WAAA;EACA,+BAAA;EACA,2CAAA;ACAZ;ADEY;EACI,kBAAA;ACAhB","file":"quizResult.css"}

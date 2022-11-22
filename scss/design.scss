@@ -1,13 +1,44 @@
 body {
-    background-color: rgb(243, 244, 246);
+    background-color: rgb(246, 243, 245);
     
     & main {
         & section {
-            max-width: 600px;
-            width: 100%;
+            & img {
+                display: block;
+                width: 100%;
+            }
 
-            & h2, & h4 {
-                text-align: center;
+            & > div {
+                width: 100%;
+
+                & > div {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 10px;
+
+                    & > div {
+                        max-width: 300px;
+                        width: 100%;
+
+                        & > img {
+                            margin: auto;
+                            display: block;
+                            max-width: 200px;
+                            width: 100%;
+                        }
+                    }
+                }
+
+                & .btn-start {
+                    background-color: hsl(35, 100%, 61%);
+                    border: none;
+
+                    &:hover {
+                        transition: all 350ms ease-in-out;
+                        background-color: hsl(35, 100%, 71%);
+                    }
+                }
             }
         }
     }
