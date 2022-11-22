@@ -14,7 +14,7 @@
                                     <a class="nav-link active" aria-current="page" href="homepage.php">Homepage</a>
                                 </li>
                             </ul>
-                        <button class="btn btn-outline-light" id="btn-login" type="submit">Login</button>';
+                        <button class="btn btn-outline-light" id="btn-login">Login</button>';
                     }
                 ?>
             </div>

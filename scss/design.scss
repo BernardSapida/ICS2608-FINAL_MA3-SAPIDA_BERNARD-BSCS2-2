@@ -3,11 +3,23 @@ body {
     
     & main {
         & section {
-            max-width: 600px;
-            width: 100%;
+            & img {
+                display: block;
+                width: 100%;
+            }
 
-            & h2, & h4 {
-                text-align: center;
+            & > div {
+                max-width: 900px;
+                width: 100%;
+
+                & .btn-start {
+                    background-color: hsl(223, 100%, 14%);
+
+                    &:hover {
+                        transition: all 350ms ease-in-out;
+                        background-color: hsl(223, 100%, 24%);
+                    }
+                }
             }
         }
     }

@@ -1,10 +1,18 @@
 body {
   background-color: rgb(243, 244, 246);
 }
-body main section {
-  max-width: 600px;
+body main section img {
+  display: block;
   width: 100%;
 }
-body main section h2, body main section h4 {
-  text-align: center;
+body main section > div {
+  max-width: 900px;
+  width: 100%;
+}
+body main section > div .btn-start {
+  background-color: hsl(223deg, 100%, 14%);
+}
+body main section > div .btn-start:hover {
+  transition: all 350ms ease-in-out;
+  background-color: hsl(223deg, 100%, 24%);
 }/*# sourceMappingURL=design.css.map */
