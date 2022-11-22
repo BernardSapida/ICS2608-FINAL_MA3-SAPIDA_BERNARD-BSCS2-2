@@ -21,6 +21,21 @@
     <body>
         <?php include_once "header.php" ?>
 
+        <main>
+            <section>
+                <img src="./public/images/homepage.jpg" alt="Homepage Background" width="50">
+                <div class="my-5 mx-auto text-center">
+                    <h1><strong>About the Quiz</strong></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ea dolores excepturi molestias voluptatibus quam eum nemo animi delectus! Ipsam at sapiente magnam provident nostrum ullam nam voluptatem culpa ipsum!</p>
+                    <button class="py-2 px-3 rounded btn-start text-light mx-auto" id="btn-start">Login to Start</button>
+                </div>
+            </section>
+        </main>
+
+        <footer class="p-3 bg-dark w-100">
+            <p class="m-0 text-center text-light">All rights reserved 2022</p>
+        </footer>
+
         <script src="./public/js/homepage.js"></script>
     </body>
 </html>
