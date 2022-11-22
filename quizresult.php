@@ -21,7 +21,6 @@
     </head>
     <body>
         <?php include_once "header.php" ?>
-        
         <main>
             <section class="mx-auto my-5 p-4 rounded">
                 <h2><strong>Quiz Result</strong></h2>
@@ -36,5 +35,8 @@
                 </form>
             </section>
         </main>
+        <footer class="p-3 bg-dark w-100">
+            <p class="m-0 text-center text-light">All rights reserved 2022</p>
+        </footer>
     </body>
 </html>

@@ -2,6 +2,8 @@ body {
     background-color: hsl(220, 14%, 96%);
 
     & main {
+        height: 80vh;
+
         & section {
             max-width: 500px;
             width: 100%;

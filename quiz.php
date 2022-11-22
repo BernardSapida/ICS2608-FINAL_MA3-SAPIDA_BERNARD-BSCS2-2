@@ -35,12 +35,12 @@
             !empty($Q1_UserAnswer) && !empty($Q2_UserAnswer) && !empty($Q3_UserAnswer) &&
             !empty($Q4_UserAnswer) && !empty($Q5_UserAnswer) && !empty($Q6_UserAnswer)
         ) {
-            if(strcmp($Q1_ANSWER, $Q1_UserAnswer) == 0) $score++;
-            if(strcmp($Q2_ANSWER, $Q2_UserAnswer) == 0) $score++;
-            if(strcmp($Q3_ANSWER, $Q3_UserAnswer) == 0) $score++;
-            if(strcmp($Q4_ANSWER, $Q4_UserAnswer) == 0) $score++;
-            if(strcmp($Q5_ANSWER, $Q5_UserAnswer) == 0) $score++;
-            if(strcmp($Q6_ANSWER, $Q6_UserAnswer) == 0) $score++;
+            if(strcasecmp($Q1_ANSWER, $Q1_UserAnswer) == 0) $score++;
+            if(strcasecmp($Q2_ANSWER, $Q2_UserAnswer) == 0) $score++;
+            if(strcasecmp($Q3_ANSWER, $Q3_UserAnswer) == 0) $score++;
+            if(strcasecmp($Q4_ANSWER, $Q4_UserAnswer) == 0) $score++;
+            if(strcasecmp($Q5_ANSWER, $Q5_UserAnswer) == 0) $score++;
+            if(strcasecmp($Q6_ANSWER, $Q6_UserAnswer) == 0) $score++;
 
             $_SESSION["score"] = $score;
             $_SESSION["rating"] = round($_SESSION["score"]/6*100, 2);
@@ -77,25 +77,25 @@
                         <hr>
                         <div class="mb-2">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Q1" id="Q1_A" value="Statements" <?php if(strcmp($Q1_UserAnswer, "Statements") == 0) echo "checked" ?>>
+                                <input class="form-check-input" type="radio" name="Q1" id="Q1_A" value="Statements" <?php if(strcasecmp($Q1_UserAnswer, "Statements") == 0) echo "checked" ?>>
                                 <label class="form-check-label" for="Q1_A">A) Statements</label>
                             </div>
                         </div>
                         <div class="mb-2">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Q1" id="Q1_B" value="Functions" <?php if(strcmp($Q1_UserAnswer, "Functions") == 0) echo "checked" ?>>
+                                <input class="form-check-input" type="radio" name="Q1" id="Q1_B" value="Functions" <?php if(strcasecmp($Q1_UserAnswer, "Functions") == 0) echo "checked" ?>>
                                 <label class="form-check-label" for="Q1_B">B) Functions</label>
                             </div>
                         </div>
                         <div class="mb-2">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Q1" id="Q1_C" value="PHP" <?php if(strcmp($Q1_UserAnswer, "PHP") == 0) echo "checked" ?>>
+                                <input class="form-check-input" type="radio" name="Q1" id="Q1_C" value="PHP" <?php if(strcasecmp($Q1_UserAnswer, "PHP") == 0) echo "checked" ?>>
                                 <label class="form-check-label" for="Q1_C">C) PHP</label>
                             </div>
                         </div>
                         <div class="mb-2">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Q1" id="Q1_D" value="Programming Language Construct" <?php if(strcmp($Q1_UserAnswer, "Programming Language Construct") == 0) echo "checked" ?>>
+                                <input class="form-check-input" type="radio" name="Q1" id="Q1_D" value="Programming Language Construct" <?php if(strcasecmp($Q1_UserAnswer, "Programming Language Construct") == 0) echo "checked" ?>>
                                 <label class="form-check-label" for="Q1_D">D) Programming Language Construct</label>
                             </div>
                         </div>
@@ -105,25 +105,25 @@
                         <hr>
                         <div class="mb-2">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Q2" id="Q2_A" value="JavaScript" <?php if(strcmp($Q2_UserAnswer, "JavaScript") == 0) echo "checked" ?>>
+                                <input class="form-check-input" type="radio" name="Q2" id="Q2_A" value="JavaScript" <?php if(strcasecmp($Q2_UserAnswer, "JavaScript") == 0) echo "checked" ?>>
                                 <label class="form-check-label" for="Q2_A">A) JavaScript</label>
                             </div>
                         </div>
                         <div class="mb-2">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Q2" id="Q2_B" value="PHP" <?php if(strcmp($Q2_UserAnswer, "PHP") == 0) echo "checked" ?>>
+                                <input class="form-check-input" type="radio" name="Q2" id="Q2_B" value="PHP" <?php if(strcasecmp($Q2_UserAnswer, "PHP") == 0) echo "checked" ?>>
                                 <label class="form-check-label" for="Q2_B">B) PHP</label>
                             </div>
                         </div>
                         <div class="mb-2">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Q2" id="Q2_C" value="HTML" <?php if(strcmp($Q2_UserAnswer, "HTML") == 0) echo "checked" ?>>
+                                <input class="form-check-input" type="radio" name="Q2" id="Q2_C" value="HTML" <?php if(strcasecmp($Q2_UserAnswer, "HTML") == 0) echo "checked" ?>>
                                 <label class="form-check-label" for="Q2_C">C) HTML</label>
                             </div>
                         </div>
                         <div class="mb-2">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Q2" id="Q2_D" value="CPP" <?php if(strcmp($Q2_UserAnswer, "CPP") == 0) echo "checked" ?>>
+                                <input class="form-check-input" type="radio" name="Q2" id="Q2_D" value="CPP" <?php if(strcasecmp($Q2_UserAnswer, "CPP") == 0) echo "checked" ?>>
                                 <label class="form-check-label" for="Q2_D">D) C++</label>
                             </div>
                         </div>
@@ -135,13 +135,13 @@
                         <hr>
                         <div class="mb-2">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Q3" id="Q3_A" value="True" <?php if(strcmp($Q3_UserAnswer, "True") == 0) echo "checked" ?>>
+                                <input class="form-check-input" type="radio" name="Q3" id="Q3_A" value="True" <?php if(strcasecmp($Q3_UserAnswer, "True") == 0) echo "checked" ?>>
                                 <label class="form-check-label" for="Q3_A">A) True</label>
                             </div>
                         </div>
                         <div class="mb-2">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Q3" id="Q3_B" value="False" <?php if(strcmp($Q3_UserAnswer, "False") == 0) echo "checked" ?>>
+                                <input class="form-check-input" type="radio" name="Q3" id="Q3_B" value="False" <?php if(strcasecmp($Q3_UserAnswer, "False") == 0) echo "checked" ?>>
                                 <label class="form-check-label" for="Q3_B">B) False</label>
                             </div>
                         </div>
@@ -151,13 +151,13 @@
                         <hr>
                         <div class="mb-2">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Q4" id="Q4_A" value="True" <?php if(strcmp($Q4_UserAnswer, "True") == 0) echo "checked" ?>>
+                                <input class="form-check-input" type="radio" name="Q4" id="Q4_A" value="True" <?php if(strcasecmp($Q4_UserAnswer, "True") == 0) echo "checked" ?>>
                                 <label class="form-check-label" for="Q4_A">A) True</label>
                             </div>
                         </div>
                         <div class="mb-2">
                             <div class="form-check">
-                                <input class="form-check-input" type="radio" name="Q4" id="Q4_B" value="False" <?php if(strcmp($Q4_UserAnswer, "False") == 0) echo "checked" ?>>
+                                <input class="form-check-input" type="radio" name="Q4" id="Q4_B" value="False" <?php if(strcasecmp($Q4_UserAnswer, "False") == 0) echo "checked" ?>>
                                 <label class="form-check-label" for="Q4_B">B) False</label>
                             </div>
                         </div>
@@ -186,5 +186,8 @@
                 </form>
             </section>
         </main>
+        <footer class="p-3 bg-dark w-100">
+            <p class="m-0 text-center text-light">All rights reserved 2022</p>
+        </footer>
     </body>
 </html>

@@ -55,7 +55,9 @@
                 </form>
             </section>
         </main>
-
+        <footer class="p-3 bg-dark w-100">
+            <p class="m-0 text-center text-light">All rights reserved 2022</p>
+        </footer>
         <script src="./public/js/homepage.js"></script>
     </body>
 </html>
