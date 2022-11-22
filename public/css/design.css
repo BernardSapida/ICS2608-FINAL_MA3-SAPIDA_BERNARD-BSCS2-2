@@ -1,1 +1,10 @@
-/*# sourceMappingURL=design.css.map */
+body {
+  background-color: rgb(243, 244, 246);
+}
+body main section {
+  max-width: 600px;
+  width: 100%;
+}
+body main section h2, body main section h4 {
+  text-align: center;
+}/*# sourceMappingURL=design.css.map */

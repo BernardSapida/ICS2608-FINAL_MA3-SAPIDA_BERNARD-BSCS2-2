@@ -1,0 +1,16 @@
+body {
+    background-color: hsl(220, 14%, 96%);
+
+    & main {
+        & section {
+            max-width: 500px;
+            width: 100%;
+            background:hsl(0, 0%, 100%);
+            box-shadow: 5px 5px 10px hsl(0, 0%, 91%);
+
+            & h2, & h4 {
+                text-align: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(243, 244, 246);
+    
+    & main {
+        & section {
+            max-width: 600px;
+            width: 100%;
+
+            & h2, & h4 {
+                text-align: center;
+            }
+        }
+    }
+}
